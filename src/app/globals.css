@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Soft Valentine's Color Palette */
+  --background: #fff5f7;
+  --foreground: #5c3d4a;
+  --blush-pink: #ffd6e0;
+  --rose: #ffacc7;
+  --soft-rose: #ff8fab;
+  --dusty-rose: #e88a9e;
+  --warm-cream: #fff0f3;
+  --deep-rose: #c9647c;
+  --lavender-pink: #f8e4ec;
+}
+
+body {
+  color: var(--foreground);
+  background: linear-gradient(135deg, var(--warm-cream) 0%, var(--blush-pink) 50%, var(--lavender-pink) 100%);
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
